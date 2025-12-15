@@ -80,9 +80,7 @@ assets/
 Prerequisites
 
 Flutter SDK installed
-
 Android Studio or VS Code
-
 Emulator or physical device
 
 Run the project
@@ -92,23 +90,17 @@ flutter run
 🛠️ Tech Stack
 
 Flutter
-
 Dart
-
 Material Design Widgets
-
 Custom animations & gestures
 
 📌 Project Status
 
 ✅ UI completed
-
 🔧 Backend: Not implemented
-
 📚 Purpose: Learning Flutter UI & layouts
 
 📄 Disclaimer
 
 This project is not affiliated with Instagram or Meta.
-
 It is created only for educational and learning purposes.
