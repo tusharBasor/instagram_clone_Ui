@@ -4,7 +4,8 @@ This project focuses on recreating Instagram’s profile screen, story view, and
 
 ⚠️ This is a UI-only project. No backend or real authentication is implemented.
 
-Features
+
+✨ Features
 
 📱 Instagram-style Profile Screen
 
@@ -13,9 +14,7 @@ Features
 📸 Stories View
 
 Auto progress bar
-
 Auto close after a few seconds
-
 Swipe down to dismiss
 
 👤 Follow / Following button logic
@@ -24,9 +23,10 @@ Swipe down to dismiss
 
 🧱 Posts grid layout
 
-🔽 Bottom sheet for follow options
+🔽 Bottom sheet for Unfollow option
 
 📌 Bottom Navigation Bar
+
 
 🎨 Design & Assets Credit
 
@@ -37,6 +37,7 @@ https://www.figma.com/design/aSc9nOJZopi9mzSGOml84E/Instagram-Profile-and-Storie
 
 📌 Design and assets are used only for learning and practice purposes.
 All credits go to the original designer(s) from the Figma Community.
+
 
 🗂️ Project Structure
 lib/
@@ -66,6 +67,7 @@ assets/
 │
 └── pubspec.yaml
 
+
 🚀 Getting Started
 Prerequisites
 
@@ -79,14 +81,12 @@ Run the project
 flutter pub get
 flutter run
 
+
 🛠️ Tech Stack
 
 Flutter
-
 Dart
-
 Material Design widgets
-
 Custom animations & gestures
 
 📌 Project Status
