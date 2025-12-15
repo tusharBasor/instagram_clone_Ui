@@ -76,31 +76,31 @@ assets/
 
 ```
 
-🚀 Getting Started
-Prerequisites
+## 🚀 Getting Started
 
-Flutter SDK installed
-Android Studio or VS Code
-Emulator or physical device
-
-Run the project
+### Prerequisites
+- Flutter SDK installed
+- Android Studio or VS Code
+- Emulator or physical device
+  
+### Run the project
+```
 flutter pub get
 flutter run
+```
 
-🛠️ Tech Stack
+### 🛠️ Tech Stack
+- Flutter
+- Dart
+- Material Design Widgets
+- Custom animations & gestures
 
-Flutter
-Dart
-Material Design Widgets
-Custom animations & gestures
+### 📌 Project Status
+- ✅ UI completed
+- 🔧 Backend: Not implemented
+- 📚 Purpose: Learning Flutter UI & layouts
 
-📌 Project Status
-
-✅ UI completed
-🔧 Backend: Not implemented
-📚 Purpose: Learning Flutter UI & layouts
-
-📄 Disclaimer
-
-This project is not affiliated with Instagram or Meta.
-It is created only for educational and learning purposes.
+### 📄 Disclaimer
+- This project is not affiliated with Instagram or Meta.
+  
+- It is created only for educational and learning purposes.
