@@ -74,6 +74,8 @@ assets/
 │
 └── pubspec.yaml
 
+```
+
 🚀 Getting Started
 Prerequisites
 
