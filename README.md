@@ -57,28 +57,27 @@ https://www.figma.com/design/aSc9nOJZopi9mzSGOml84E/Instagram-Profile-and-Storie
 ```txt
 lib/
 │
-├── main.dart               # App entry point
-├── app.dart                # App theme, colors, MaterialApp
+├── main.dart                 # App entry point
+├── app.dart                  # App theme, colors, MaterialApp
 │
 ├── Screens/
-│   ├── my_account.dart     # Profile screen (Sliver-based UI)
-│   └── my_story.dart       # Story view screen
-│
+│   ├── my_account.dart       # Profile screen (Sliver-based UI)
+│   └── my_story.dart         # Story view screen
+│   └── splash.dart           # Splash screen
 ├── data/
-│   └── assets.dart         # Dummy data (posts, highlights)
+│   └── assets.dart           # Dummy data (posts, highlights)
 │
 assets/
 │
 ├── images/
-│   ├── bottom_nav_bar/     # Bottom navigation icons
-│   ├── tabs/               # Profile tab icons
-│   ├── posts/              # Post grid images
-│   ├── stories/            # Story images
-│   ├── profile/            # Profile images
-│   │   ├── story_seen.png
-│   │   ├── story_not_seen.png
-│   │   └── profile_image.png
-│   └── misc/               # Other UI images
+│   ├── icons/                # Bottom navigation icons
+│   ├── posts/                # Post grid images
+│   ├── story_and_highlights/ # Story images
+│   ├── tabs/                 # Profile tab icons
+│   │   ├── story.png
+│   │   ├── story_seened.png
+│   │   └── story_not_seen.png 
+│   └── misc/                 # Other UI images
 │
 └── pubspec.yaml
 
