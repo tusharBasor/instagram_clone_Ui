@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:instagram_clone/Screens/my_account.dart';
+import 'package:instagram_clone/Screens/splash.dart';
 
 /// --------------- COLORS ---------------
 class AppColors {
@@ -27,7 +28,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'Instagram',
-      home: MyAccount(),
+      home: SplashScr(),
 
       theme: ThemeData(
         useMaterial3: false, // VERY IMPORTANT
@@ -46,13 +47,13 @@ class MyApp extends StatelessWidget {
         textTheme:  TextTheme(
           bodySmall: TextStyle(
             fontFamily: 'SFProDisplay',
-            fontSize: 14,
+            fontSize: 13,
             fontWeight: FontWeight.normal,
             color: AppColors.black,
           ),
           bodyMedium: TextStyle(
             fontFamily: 'SFProDisplay',
-            fontSize: 13,
+            fontSize: 15,
             fontWeight: FontWeight.w500,
             color: AppColors.black,
           ),

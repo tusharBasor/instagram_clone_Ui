@@ -34,18 +34,3 @@ final List <Highlights> highlightsList = [
   Highlights('assets/images/story_and_highlights/H4.png', 'RESOURCES'),
   Highlights('assets/images/story_and_highlights/H5.png', 'WEB DESIGN'),
 ];
-
-// void button() {
-//   ElevatedButton(
-//     onPressed: () {},
-//     child: Text('Following'),
-//     style: ElevatedButton.styleFrom(
-//       backgroundColor: Colors.blue,
-//       foregroundColor: Color.fromRGBO(33, 33, 33, 100),
-//       fixedSize: Size(165, 32),
-//       shape: RoundedRectangleBorder(
-//         borderRadius: BorderRadiusGeometry.circular(8),
-//       ),
-//     ),
-//   );
-// }

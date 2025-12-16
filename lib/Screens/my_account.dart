@@ -13,6 +13,8 @@ class _MyAccountState extends State<MyAccount> {
   bool hasseenstory = false;
   bool isFollowing = false;
 
+  String linkedin = 'https://www.linkedin.com/in/tushar-basor-333a2b344/';
+  
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -64,7 +66,7 @@ class _MyAccountState extends State<MyAccount> {
                           });
                         },
                         child: CircleAvatar(
-                          radius: 60,
+                          radius: 50,
                           backgroundColor: AppColors.grey,
                           backgroundImage: AssetImage(
                             hasseenstory
@@ -73,12 +75,12 @@ class _MyAccountState extends State<MyAccount> {
                           ),
                         ),
                       ),
-                     const SizedBox(width: 10),
+                     const SizedBox(width: 8),
                       Column(
                         crossAxisAlignment: CrossAxisAlignment.start,
                         children: [
                           Text(
-                            '218',
+                            '18',
                             style: Theme.of(context).textTheme.bodyLarge,
                           ),
                           Text(
@@ -87,11 +89,12 @@ class _MyAccountState extends State<MyAccount> {
                           ),
                         ],
                       ),
+                      const SizedBox(width: 8),
                       Column(
                         crossAxisAlignment: CrossAxisAlignment.start,
                         children: [
                           Text(
-                            '18.7m',
+                            '270k',
                             style: Theme.of(context).textTheme.bodyLarge,
                           ),
                           Text(
@@ -100,6 +103,7 @@ class _MyAccountState extends State<MyAccount> {
                           ),
                         ],
                       ),
+                      const SizedBox(width: 8),
                       Column(
                         crossAxisAlignment: CrossAxisAlignment.start,
                         children: [
@@ -113,6 +117,7 @@ class _MyAccountState extends State<MyAccount> {
                           ),
                         ],
                       ),
+                      const SizedBox(width: 8),
                     ],
                   ),
                 ),
@@ -128,17 +133,15 @@ class _MyAccountState extends State<MyAccount> {
                         style: Theme.of(context).textTheme.bodyLarge,
                       ),
                       Text(
-                        'Flutter Devloper',
-                        style: Theme.of(context).textTheme.bodyMedium,
-                      ),
-                      Text(
-                        'You have to believe in yourself when no one else does',
+                        'Flutter Developer 👨‍💻',
                         style: Theme.of(context).textTheme.bodySmall,
                       ),
                       Text(
-                        'Tushar.dev',
-                        style: Theme.of(context).textTheme.bodySmall!
-                            .copyWith(color: AppColors.blue),
+                        '''
+Mobile apps | UI/UX | Logic
+Built an Instagram clone 📸
+Focused on growth & innovation ''',
+                        style: Theme.of(context).textTheme.bodySmall,
                       ),
                     ],
                   ),
@@ -175,7 +178,7 @@ class _MyAccountState extends State<MyAccount> {
                               TextSpan(
                                 text:
                                     'Joseph_alzari, Beth_Mooney and 16 others friends',
-                                style: TextStyle(fontWeight: FontWeight.bold),
+                                style: Theme.of(context).textTheme.bodySmall!.copyWith(fontWeight: FontWeight.bold),
                               ),
                             ],
                           ),
@@ -276,6 +279,7 @@ class _MyAccountState extends State<MyAccount> {
                           ),
                         ),
                       ),
+                     const SizedBox(width: 5,),
                       Expanded(
                         flex: 3,
                         child: ElevatedButton(
@@ -289,6 +293,7 @@ class _MyAccountState extends State<MyAccount> {
                           ),
                         ),
                       ),
+                      const SizedBox(width: 5,),
                       Expanded(
                         flex: 1,
                         child: ElevatedButton(
@@ -303,7 +308,7 @@ class _MyAccountState extends State<MyAccount> {
 
                 /// ------------ HIGHLIGHTS ------------
                 SizedBox(
-                  height: 100,
+                  height: 90,
                   child: ListView.builder(
                     scrollDirection: Axis.horizontal,
                     padding: EdgeInsets.symmetric(horizontal: 12),
@@ -315,7 +320,7 @@ class _MyAccountState extends State<MyAccount> {
                         child: Column(
                           children: [
                             CircleAvatar(
-                              radius: 35,
+                              radius: 30,
                               backgroundColor: Colors.grey,
                               backgroundImage: AssetImage(item.image),
                             ),
@@ -368,8 +373,8 @@ class _MyAccountState extends State<MyAccount> {
                   child: Image.asset(
                     Posts().arrposts[index],
                     fit: BoxFit.cover,
-                    cacheWidth: 300,
-                    cacheHeight: 300,
+                    cacheWidth: 150,
+                    cacheHeight: 150,
                   ),
                 );
               },
@@ -385,27 +390,29 @@ class _MyAccountState extends State<MyAccount> {
         type: BottomNavigationBarType.fixed,
         showSelectedLabels: false,
         showUnselectedLabels: false,
-        iconSize: 25,
+        iconSize: 30,
+        elevation: 4,
         items: [
           BottomNavigationBarItem(
-            label: 'Reels',
-            icon: Image.asset('assets/images/bottom_nav_bar/reels.png'),
-          ),
-          BottomNavigationBarItem(
             label: 'Home',
-            icon: Image.asset('assets/images/bottom_nav_bar/home.png'),
+            icon: Icon(Icons.home_outlined,color: AppColors.black),
           ),
           BottomNavigationBarItem(
             label: 'Explore',
-            icon: Image.asset('assets/images/bottom_nav_bar/explore.png'),
+            icon: Icon(Icons.search, color: AppColors.black,),
+          ),
+          BottomNavigationBarItem(
+            label: 'Reels',
+              icon: Image.asset('assets/images/icons/reels.png')
           ),
           BottomNavigationBarItem(
             label: 'Like',
-            icon: Image.asset('assets/images/bottom_nav_bar/like.png'),
+            icon: Icon(Icons.favorite_border, color: AppColors.black,)
+            // icon: Image.asset('assets/images/bottom_nav_bar/fav.png'),
           ),
           BottomNavigationBarItem(
             label: 'Profile',
-            icon: Image.asset('assets/images/story_profile_img.png'),
+            icon: Image.asset('assets/images/rect3.png'),
           ),
         ],
       ),

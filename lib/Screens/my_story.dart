@@ -9,6 +9,7 @@ class Story extends StatefulWidget {
 class _StoryState extends State<Story> with SingleTickerProviderStateMixin {
   late AnimationController _controller;
   Timer? _timer;
+  bool islike = false;
 
   @override
   void initState() {
@@ -85,12 +86,12 @@ class _StoryState extends State<Story> with SingleTickerProviderStateMixin {
                         const CircleAvatar(
                           radius: 15,
                           backgroundImage: AssetImage(
-                            'assets/images/story_profile_img.png',
+                            'assets/images/icons/story_profile_img.png',
                           ),
                         ),
                         const SizedBox(width: 8),
                         const Text(
-                          'codefive • 3h',
+                          'Tushar • 1h',
                           style: TextStyle(color: Colors.white),
                         ),
                         const Spacer(),
@@ -107,10 +108,11 @@ class _StoryState extends State<Story> with SingleTickerProviderStateMixin {
 
             /// BOTTOM MESSAGE BAR
             Row(
+              mainAxisAlignment: MainAxisAlignment.spaceAround,
               children: [
                 Expanded(
                   child: Container(
-                    padding: const EdgeInsets.symmetric(horizontal: 12),
+                    padding: const EdgeInsets.symmetric(horizontal: 16),
                     height: 44,
                     decoration: BoxDecoration(
                       border: Border.all(color: Colors.white),
@@ -129,10 +131,18 @@ class _StoryState extends State<Story> with SingleTickerProviderStateMixin {
                 const SizedBox(width: 12),
 
                 /// LIKE BUTTON
-                const Icon(
-                  Icons.favorite_border,
-                  color: Colors.white,
-                  size: 28,
+                InkWell(
+                  onTap: () {
+                    islike = !islike;
+                    setState(() {
+
+                    });
+                  },
+                  child: Icon( islike ?
+                      Icons.favorite : Icons.favorite_border,
+                     color: islike ? Colors.red : Colors.white,
+                    size: 28,
+                  ),
                 ),
 
                 const SizedBox(width: 12),
@@ -148,3 +158,4 @@ class _StoryState extends State<Story> with SingleTickerProviderStateMixin {
     );
   }
 }
+
