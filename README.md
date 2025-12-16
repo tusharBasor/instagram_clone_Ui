@@ -35,6 +35,7 @@ This project focuses on recreating Instagram’s **profile screen**, **story vie
 ### 🚀 Splash Screen
 - Custom splash screen on app launch
 - App logo display
+- App name text shown at the bottom
 - Smooth transition to home screen
 
 ---
