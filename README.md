@@ -20,15 +20,22 @@ This project focuses on recreating Instagram’s **profile screen**, **story vie
 
 ### 📸 Stories
 - Auto progress bar
-- Auto close after a few seconds
+- Auto close after 8 seconds
 - Swipe down to dismiss
 - Seen / Not-seen story logic
+- Like / Unlike story interaction ❤️
 
 ### 👤 Interactions
 - Follow → Following button logic
 - Dropdown arrow with bottom sheet
 - Unfollow option
 - Bottom Navigation Bar
+- Like / Unlike toggle logic (Instagram-style)
+
+### 🚀 Splash Screen
+- Custom splash screen on app launch
+- App logo display
+- Smooth transition to home screen
 
 ---
 
@@ -93,6 +100,7 @@ flutter run
 - Flutter
 - Dart
 - Material Design Widgets
+- Sliver Widgets
 - Custom animations & gestures
 
 ### 📌 Project Status
@@ -104,3 +112,4 @@ flutter run
 - This project is not affiliated with Instagram or Meta.
   
 - It is created only for educational and learning purposes.
+- All trademarks, logos, and designs belong to their respective owners.
