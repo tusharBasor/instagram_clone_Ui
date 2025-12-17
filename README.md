@@ -17,7 +17,6 @@ This project focuses on recreating Instagram’s **profile screen**, **story vie
     <img src="assets/images/preview/Posts.jpg" width="230" style="margin-right:30px;"/>
   <img src="assets/images/preview/Story_scr.jpg" width="230"/>
 </p>
-aise use kr rha mein
 
 
 ## ✨ Features
