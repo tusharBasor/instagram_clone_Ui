@@ -12,37 +12,16 @@ This project focuses on recreating Instagram’s **profile screen**, **story vie
 
 ## 🚀 Preview
 
-<table align="center">
-  <tr>
-    <td align="center">
-      <img src="assets/images/preview/Splash_scr.jpg" width="230"/><br/>
+<p>
+  <img src="assets/images/preview/Splash_scr.jpg" width="230" style="margin-right:24px;"/><br/>
       <b>Splash Screen</b>
-    </td>
-
-    <td width="30"></td>
-
-    <td align="center">
-      <img src="assets/images/preview/Account_scr.jpg" width="230"/><br/>
-      <b>Account Screen</b>
-    </td>
-  </tr>
-
-  <tr height="30"></tr>
-
-  <tr>
-    <td align="center">
-      <img src="assets/images/preview/Posts.jpg" width="230"/><br/>
-      <b>Posts Feed</b>
-    </td>
-
-    <td width="30"></td>
-
-    <td align="center">
-      <img src="assets/images/preview/Story_scr.jpg" width="230"/><br/>
+  <img src="assets/images/preview/Account_scr.jpg" width="230"/><br/>
+      <b>Profile Screen</b>
+  <img src="assets/images/preview/Posts.jpg" width="230" style="margin-right:24px;"/><br/>
+      <b>Posts</b>
+  <img src="assets/images/preview/Story_scr.jpg" width="230"/><br/>
       <b>Story Screen</b>
-    </td>
-  </tr>
-</table>
+</p>
 
 
 
