@@ -15,6 +15,12 @@ This project focuses on recreating Instagram’s **profile screen**, **story vie
 ### Splash Screen                                 
 <img src="assets/images/preview/Splash_scr.jpg" width="300"/>
 
+<p align="center">
+  <img src="assets/images/preview/Splash_scr.jpg" width="250"/>
+  <img src="assets/images/preview/Account_scr.jpg" width="250"/>
+</p>
+
+
 ### Profile Screen
 ![Profile UI](assets/images/preview/Account_scr.jpg)
 
